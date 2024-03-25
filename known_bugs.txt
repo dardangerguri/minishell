@@ -1,6 +1,0 @@
-known bugs in minishell:
-
-1. something fucky wucky happening with the _ env variable
-	- export _=test : once it created a new var (we had duplicate _ vars)
-
-2. output redirections infact dont work like we thought they do
