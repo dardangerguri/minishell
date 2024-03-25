@@ -63,4 +63,4 @@ command < input_file > output_file
 export VARIABLE_NAME=value
 ```
 ---
-Made by [dardangerguri](https://github.com/dardangerguri) and [jhesso](https://github.com/jhesso) 
+Made by [dardangerguri](https://github.com/dardangerguri) and [jhesso](https://github.com/jhesso).
