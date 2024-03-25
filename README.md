@@ -62,3 +62,5 @@ command < input_file > output_file
 ``` bash
 export VARIABLE_NAME=value
 ```
+
+Made by [dardangerguri](https://github.com/dardangerguri) and [jhesso](https://github.com/jhesso) 
