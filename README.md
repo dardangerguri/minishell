@@ -2,6 +2,8 @@
 
 Minishell is a basic bash program implemented in C. It provides functionality for executing commands, handling redirections and pipes, expanding environment variables, and implementing built-in commands such as `cd`, `echo`, `env`, `exit`, `export`, `pwd`, and `unset`.
 
+![](minishell.gif)
+
 ## About the project
 
 The Minishell project aims to create a simplified version of a shell, offering users a command-line interface to interact with the operating system. By implementing core shell features and built-in commands, developers gain a deeper understanding of system programming and shell functionalities.
