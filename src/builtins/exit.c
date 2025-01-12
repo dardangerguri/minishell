@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   exit.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dgerguri <dgerguri@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dardangerguri <dardangerguri@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/25 20:55:01 by dgerguri          #+#    #+#             */
-/*   Updated: 2023/09/14 17:17:43 by dgerguri         ###   ########.fr       */
+/*   Updated: 2025/01/12 23:02:36 by dardangergu      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@ static void	free_on_exit(t_minihell *mini)
 {
 	struct termios	t;
 
+	(void)t;
 	free_str_arr(mini->env);
 	cleanup(mini);
 	rl_clear_history();

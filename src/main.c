@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dgerguri <dgerguri@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dardangerguri <dardangerguri@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/08 16:15:23 by jhesso            #+#    #+#             */
-/*   Updated: 2023/09/16 12:33:54 by dgerguri         ###   ########.fr       */
+/*   Updated: 2025/01/12 23:01:18 by dardangergu      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 
 static void	handle_eof(t_minihell *minihell, struct termios t)
 {
+	(void)t;
 	ft_putendl_fd("exit", STDOUT_FILENO);
 	rl_clear_history();
 	free_str_arr(minihell->env);
